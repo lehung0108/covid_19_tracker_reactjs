@@ -1,1 +1,1 @@
-# covid_19_tracker_reactjs
+# Covid-19 Tracker

@@ -82,7 +82,7 @@ function App() {
         countries={countries}
         handleOnChange={handleOnChange}/>
       <Highlight summary={summary} />
-      <Summary report={report}/>
+      <Summary countryId={selectedCountryId} report={report}/>
     </Container>
   );
 }

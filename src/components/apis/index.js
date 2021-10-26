@@ -10,3 +10,6 @@ axios.get(
     .utc(0)
     .format()}`
 );
+
+export const getMapDataByCountryId = (countryId) =>
+  import(`@highcharts/map-collection/countries/${countryId}/${countryId}-all.geo.json`);
